@@ -17,7 +17,7 @@
     "build": "babel assert.js test.js --out-dir build && babel internal --out-dir build/internal && babel test --out-dir build/test",
     "prepare": "npm run build && (git config core.hooksPath .githooks || true)",
     "dev": "babel assert.js test.js --watch --out-dir build & babel internal --watch --out-dir build/internal & babel test --watch --out-dir build/test",
-    "lint": "eslint --ext=js,mjs .",
+    "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "npm run tests-only",
     "posttest": "npx npm@'>=10.2' audit --omit=dev",
@@ -37,7 +37,7 @@
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
     "@ljharb/eslint-config": "22.2.4",
-    "eslint": "=8.57.1",
+    "eslint": "=10.11.0",
     "tape": "5.10.2"
   },
   "dependencies": {
