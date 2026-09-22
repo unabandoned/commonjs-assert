@@ -2,9 +2,15 @@
 
 > The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser.
 
-[![Build Status](https://travis-ci.org/browserify/commonjs-assert.svg?branch=master)](https://travis-ci.org/browserify/commonjs-assert)
-[![npm](https://img.shields.io/npm/dm/assert.svg)](https://www.npmjs.com/package/assert)
-[![npm](https://img.shields.io/npm/v/assert.svg)](https://www.npmjs.com/package/assert)
+[![npm](https://img.shields.io/npm/v/@unabandoned/assert.svg)](https://www.npmjs.com/package/@unabandoned/assert)
+
+> **This is a maintained fork of [browserify/commonjs-assert][upstream],
+> published as [`@unabandoned/assert`][pkg].** Upstream's last release was
+> September 2023. The module itself is unchanged; the fork exists to keep its
+> dependency tree current. See [.unabandoned.yml](.unabandoned.yml).
+
+[upstream]: https://github.com/browserify/commonjs-assert
+[pkg]: https://www.npmjs.com/package/@unabandoned/assert
 
 With browserify, simply `require('assert')` or use the `assert` global and you will get this module.
 
@@ -15,7 +21,7 @@ The goal is to provide an API that is as functionally identical to the [Node.js 
 To use this module directly (without browserify), install it as a dependency:
 
 ```
-npm install assert
+npm install @unabandoned/assert
 ```
 
 ## Inconsistencies with Node.js `assert`

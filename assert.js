@@ -34,10 +34,11 @@ const AssertionError = require('./internal/assert/assertion_error');
 const { inspect } = require('util/');
 const { isPromise, isRegExp } = require('util/').types;
 
-const objectAssign = require('object.assign/polyfill')();
-const objectIs = require('object-is/polyfill')();
-
-const RegExpPrototypeTest = require('call-bind/callBound')('RegExp.prototype.test');
+const {
+  objectAssign,
+  objectIs,
+  regExpTest: RegExpPrototypeTest
+} = require('./internal/polyfills');
 
 const errorCache = new Map();
 
