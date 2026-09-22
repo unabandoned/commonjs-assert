@@ -32,7 +32,7 @@
 
 'use strict';
 
-const arrayFill = require('array-fill');
+const arrayFill = require('../common/array-fill');
 
 const common = require('../common');
 const assert = require('../../assert');

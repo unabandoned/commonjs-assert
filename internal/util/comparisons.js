@@ -19,9 +19,8 @@ const arrayFromMap = map => {
   return array;
 };
 
-const objectIs = Object.is ? Object.is : require('object-is');
+const { objectIs, numberIsNaN } = require('../polyfills');
 const objectGetOwnPropertySymbols = Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols : () => [];
-const numberIsNaN = Number.isNaN ? Number.isNaN : require('is-nan');
 
 function uncurryThis(f) {
   return f.call.bind(f);

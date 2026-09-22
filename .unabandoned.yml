@@ -1,0 +1,27 @@
+schema: 1
+
+package: "@unabandoned/assert"
+
+upstream:
+  repo: browserify/commonjs-assert
+  reason: "unmaintained upstream — last release September 2023, with five runtime dependencies left to age underneath it"
+
+summary: >-
+  Node's core `assert` module reimplemented for the browser and other
+  environments without Node's built-in assert.
+
+why-forked: >-
+  browserify resolves this package as the `assert` builtin, so it lands in
+  every bundle whose source calls `require('assert')`. Upstream went idle
+  while its dependency tree aged; forked so Renovate keeps that tree current
+  for the consumers that pull it in transitively.
+
+used-by:
+  - consumer: "@unabandoned/browserify"
+    purpose: >-
+      resolved as the `assert` builtin, so it lands in any bundle whose source
+      calls require('assert')
+
+status: active
+
+tags: [browser, assert, node-core-polyfill, browserify]
