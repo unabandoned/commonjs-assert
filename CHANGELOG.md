@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.0](https://github.com/unabandoned/commonjs-assert/compare/assert-v2.1.0...assert-v2.2.0) (2026-09-22)
+
+
+### Features
+
+* onboard as @unabandoned/assert and clear the abandoned dependency tree ([#1](https://github.com/unabandoned/commonjs-assert/issues/1)) ([e988983](https://github.com/unabandoned/commonjs-assert/commit/e988983a6dc97830f74430c42a152c6174a4057c))
+
+
+### Dependencies & maintenance
+
+* **deps:** pin dependencies ([#3](https://github.com/unabandoned/commonjs-assert/issues/3)) ([144020b](https://github.com/unabandoned/commonjs-assert/commit/144020b7c8ee4fcda6db6c4fb8fa3d02087f1a15))
+
 ## 2.1.0
 
 * [New] Implement `assert.match()` and `assert.doesNotMatch()`
