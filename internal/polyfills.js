@@ -47,6 +47,7 @@ function assignShim(target, ...sources) {
 function isShim(a, b) {
   if (a === b) {
     // +0 !== -0 under SameValue; 1/+0 is Infinity and 1/-0 is -Infinity.
+    // eslint-disable-next-line no-magic-numbers -- 0 and 1 are the algorithm
     return a !== 0 || 1 / a === 1 / b;
   }
   return a !== a && b !== b;
@@ -67,5 +68,5 @@ module.exports = {
   objectAssign: typeof Object.assign === 'function' ? Object.assign : assignShim,
   objectIs: typeof Object.is === 'function' ? Object.is : isShim,
   numberIsNaN: typeof Number.isNaN === 'function' ? Number.isNaN : numberIsNaNShim,
-  regExpTest
+  regExpTest,
 };

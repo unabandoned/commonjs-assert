@@ -1,6 +1,8 @@
 {
   "root": true,
 
+  "reportUnusedDisableDirectives": false,
+
   "extends": "@ljharb/eslint-config/node/8",
 
   "rules": {
@@ -21,6 +23,7 @@
     {
       "files": "test.js",
       "rules": {
+        "no-magic-numbers": "off",
         "global-require": "off",
         "max-nested-callbacks": "off",
       },
@@ -28,6 +31,9 @@
     {
       "files": "assert.js", // mostly from node core
       "rules": {
+        "comma-dangle": "off",
+        "no-magic-numbers": "off",
+        "no-unused-vars": "off",
         "array-bracket-newline": "off",
         "array-element-newline": "off",
         "arrow-body-style": "off",
@@ -61,6 +67,9 @@
     {
       "files": "internal/**",
       "rules": {
+        "comma-dangle": "off",
+        "no-magic-numbers": "off",
+        "no-unused-vars": "off",
         "arrow-parens": "off",
         "camelcase": "off",
         "complexity": "off",
@@ -100,6 +109,8 @@
     {
       "files": "test/**", // test files from node core
       "rules": {
+        "no-magic-numbers": "off",
+        "no-unused-vars": "off",
         "array-bracket-spacing": "off",
         "arrow-parens": "off",
         "comma-dangle": "off",
