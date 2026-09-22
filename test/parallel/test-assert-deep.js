@@ -14,7 +14,7 @@ const { AssertionError } = assert;
 const defaultMsgStart = 'Expected values to be strictly deep-equal:\n';
 const defaultMsgStartFull = `${defaultMsgStart}+ actual - expected`;
 
-const objectEntries = require('object.entries');
+const objectEntries = require('../common/object-entries');
 
 const arrayFromSet = set => {
   const array = [];
