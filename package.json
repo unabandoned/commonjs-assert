@@ -37,7 +37,7 @@
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
     "@ljharb/eslint-config": "22.2.4",
-    "aud": "2.0.5",
+    "aud": "3.0.1",
     "eslint": "=8.57.1",
     "object.entries": "1.1.9",
     "object.getownpropertydescriptors": "2.1.9",
