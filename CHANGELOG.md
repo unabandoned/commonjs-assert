@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.2](https://github.com/unabandoned/commonjs-assert/compare/assert-v2.2.1...assert-v2.2.2) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#16](https://github.com/unabandoned/commonjs-assert/issues/16)) ([55c86aa](https://github.com/unabandoned/commonjs-assert/commit/55c86aa31d936b922c8fb379bb2804fbc80c731b))
+
 ## [2.2.1](https://github.com/unabandoned/commonjs-assert/compare/assert-v2.2.0...assert-v2.2.1) (2026-09-22)
 
 
