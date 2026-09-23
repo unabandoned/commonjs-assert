@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.2](https://github.com/unabandoned/commonjs-assert/compare/assert-v2.2.1...assert-v2.2.2) (2026-09-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#14](https://github.com/unabandoned/commonjs-assert/issues/14)) ([c73655b](https://github.com/unabandoned/commonjs-assert/commit/c73655b11a1ccbe706383ffb90587e1e70b506d4))
+
 ## [2.2.1](https://github.com/unabandoned/commonjs-assert/compare/assert-v2.2.0...assert-v2.2.1) (2026-09-22)
 
 
