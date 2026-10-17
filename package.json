@@ -38,7 +38,7 @@
     "@commitlint/config-conventional": "21.2.3",
     "@ljharb/eslint-config": "22.2.5",
     "eslint": "=10.12.0",
-    "tape": "5.10.2"
+    "tape": "5.10.3"
   },
   "dependencies": {
     "util": "npm:@unabandoned/util@^0.12.9"
