@@ -34,8 +34,8 @@
     "@babel/cli": "8.0.6",
     "@babel/core": "8.0.7",
     "@babel/preset-env": "8.0.7",
-    "@commitlint/cli": "21.2.3",
-    "@commitlint/config-conventional": "21.2.3",
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
     "@ljharb/eslint-config": "22.2.5",
     "eslint": "=10.13.0",
     "tape": "5.10.3"
